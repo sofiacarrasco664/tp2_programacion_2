@@ -1,0 +1,728 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul li, ol li {
+    list-style-type: none;
+    margin: 0 10px 10px;
+ }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p em {
+    font-style: normal;
+}
+
+h1 {
+    background: url('../img/iconos/logo_mascotitas.png') no-repeat center;
+    font-size: 0;
+    width: 250px;
+    margin-left: 50px;
+    height: 50px;
+}
+
+h2:first-child {
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    font-size: 4em;
+    margin: 0 0 20px;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-left: 20px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    text-align: left;
+}
+
+h3 {
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    line-height: 30px;
+    text-align: left;
+} 
+
+h4 {
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 1.125em;
+    line-height: 40px;
+}
+p {
+    margin: 20px;
+    width: 40%;
+    font-size: 1em;
+    line-height: 26px;
+}
+
+ul li h4, ul li p {
+    margin: 0;
+}
+
+img {
+    margin: auto;
+    display: grid;
+}
+
+#sobre-nosotros, #ultimas-noticias, #productos-destacados, section:last-child article {
+    background: url(../img/fondo_de_patitas.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 130px 80px;
+}
+
+#sobre-nosotros h3 {
+    display: inline-block;
+}
+
+#sobre-nosotros p, #ultimas-noticias p {
+    width: 80%;
+}
+
+#sobre-nosotros div, #ultimas-noticias div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+
+#sobre-nosotros img, #ultimas-noticias img {
+    display: inline-block;
+}
+
+header{
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff23;
+    z-index: 2;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 20%);
+}
+header > *{
+    display: inline-block;
+    vertical-align:middle;
+}
+header a{
+    padding: 10px;
+    text-decoration: none;
+    color: #161616;
+    margin: 0;
+}
+header a:hover {
+    color: #161616;
+    border-bottom: rgb(0, 255, 128);
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    transition: border 0.2s;
+}
+
+nav {
+    float: right;
+    margin-right: 50px;
+}
+
+nav > ul {
+    position: initial;
+}
+
+nav > ul > li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: 0;
+    vertical-align: middle;
+}
+
+
+.card {
+    border-radius: 15px;
+    border: 1px solid rgb(192, 192, 192);
+    margin:  2em 1em;
+    background-color: #ffffff;
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    height: min-content;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
+    padding-bottom: 30px;
+
+}
+
+.card img {
+    border-radius: 15px;
+    margin: 15px auto 45px;
+}
+
+.card h4 {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.card a, #productos-destacados a:last-child, #ultimas-noticias a:last-child, #detalle-noticias a, section:last-child a {
+    color: #ffffff;
+    background-color: #f43e22;
+    border-radius: 8px;
+    padding: 10px 30px;
+    transition: background-color .2s linear;
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.card a:hover, #productos-destacados a:last-child:hover, #ultimas-noticias a:last-child:hover, #detalle-noticias a:hover, section:last-child a:hover {
+    background-color: #a322f4;
+    transition: background-color .2s linear;
+}
+
+section:last-child a {
+    width: 46%;
+    margin: auto;
+}
+
+
+#ultimas-noticias a:last-child, #contactanos a {
+    width: 25%;
+    margin: 30px 0;
+}
+
+#ultimas-noticias img {
+    margin-left: 90px;
+}
+
+.card a {
+    width: 35%;
+}
+
+#productos-destacados a:last-child,  #detalle-noticias a {
+    width: 50%;
+}
+
+#home {
+    background: url(../img/figura_rosa.png) fixed no-repeat bottom center #f02b7a;
+}
+
+#banner-contacto {
+    background: #f02b7a;
+}
+
+#contacto {
+    padding: 100px 0;
+}
+
+#catalogo {
+    background-color: #11f65f;
+}
+
+#blog {
+    background-color: #f3853a;
+}
+
+.card-noticias {
+    border-radius: 15px;
+    border: 1px solid rgb(211, 211, 211);
+    margin:  2em 0.5em;
+    background-color: #fafafa;
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
+
+}
+
+.card-noticias article {
+    background: none!important;
+    padding: 0 !important;
+}
+
+.card-noticias article div {
+    display: block!important;
+}
+
+.card-noticias article img {
+    border-radius: 15px;
+    margin: 0;
+    padding: 0!important;
+}
+
+.card-noticias h4 {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.card-noticias p {
+    margin: 0;
+}
+
+footer {
+    background-color: #0e9ae0;
+    padding: 0 0 150px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    background-color: #0dcce1;
+}
+
+footer > ul:last-child li {
+    display: block;
+}
+
+#redes li, footer > p:last-child {
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    margin: 50px auto 0;
+}
+footer li p {
+    color: #FFFFFF;
+    width: 100%;
+    margin: auto;
+}
+
+footer li {
+    display: inline-block;
+    margin: 40px 15px;
+}
+
+footer a {
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-indent: -9000px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a[href *= 'face'] {
+    background: url(../img/iconos/facebook.png);
+}
+
+a[href *= twit] {
+    background: url(../img/iconos/twitter.png);
+}
+
+a[href *= insta] {
+    background: url(../img/iconos/instagram.png);
+}
+
+a[href *= you]{
+    background: url(../img/iconos/youtube.png);
+}
+
+#detalle-noticias, #listado-productos {
+    background: url(../img/fondo_de_patitas.jpg);
+    background-size: cover;
+}
+
+#detalle-noticias, #detalle-noticias img {
+    margin: 0;
+}
+
+#detalle-noticias h3, #listado-productos h3 {
+    background-color: #f5c94c;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    height: 125px;
+    margin: 0;
+    font-size: 2em;
+}
+
+
+#detalle-noticias div {
+    background-color: #ffffff;
+    text-align: center;
+    width: min-content;
+    display: inline-block;
+    margin: 70px 45px;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+#productos-destacados {
+    text-align: center;
+}
+
+#productos-destacados h3, #productos-destacados p {
+    text-align: center;
+    margin: 40px auto;
+}
+
+#productos-destacados p, #ultimas-noticias p:first-child, section:last-child article p:first-child, #sobre-nosotros p:first-child {
+    font-size: 0;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    background: url(../img/iconos/icono_patita_de_perro.png) no-repeat center;
+}
+
+
+#listado-productos ul {
+    margin: 0;
+    padding: 100px 50px;
+}
+
+section:last-child article div{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 150px 0 0 80px;
+}
+
+section:last-child article img {
+    display: inline-block;
+    padding: 50px 0;
+}
+
+section:last-child article h3 {
+    display: inline-block;
+}
+
+section:last-child article p {
+    width: 80%;
+    margin: 0 29px;
+}
+
+
+abbr {
+    text-decoration: none;
+}
+
+form {
+    margin: 50px auto;
+    text-align: center;
+}
+
+form div {
+    margin: 15px;
+}
+
+form label {
+    display: block;
+    margin: 15px 0;
+    color: #111;
+}
+
+form input {
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #ccc;
+    padding: 15px;
+}
+
+form textarea {
+    width: 30%;
+    height: 80px;
+    resize: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+form button {
+    width: 30%;
+    height: 40px;
+    background-color: #f43e22;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+}
+
+#contacto p, #nueva-noticia p, #contacto h3, #nueva-noticia h3 {
+    text-align: center;
+    width: 100%;
+}
+
+#nueva-noticia strong {
+    display: block;
+}
+
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+#detalle-noticia h2 {
+    color: #FFFFFF;
+    background-color: #f02b7a;
+    width: 100%;
+    display: block;
+    line-height: 1em;
+    padding: 100px;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+#detalle-noticia article {
+    padding: 0;
+}
+
+#detalle-noticia article div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#detalle-noticia article picture img {
+    display: block;
+    margin: 50px auto;
+    padding: 0;
+}
+
+#detalle-noticia article div p, #detalle-noticia article div ul {
+    margin: 20px 80px;
+    padding: 0;
+}
+
+#detalle-noticia article div h3 {
+    margin: 0 80px;
+}
+
+#detalle-noticia article div ol {
+    padding: 0;
+    margin: 40px 0;
+}
+
+#detalle-noticia article div > ol {
+    padding: 0;
+    margin: 40px 80px;
+}
+
+#detalle-producto div, #detalle-producto picture {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+}
+
+#detalle-producto h2 {
+    font-size: 2em;
+    color: #111111;
+    text-align: left;
+}
+
+#detalle-producto p {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#detalle-producto {
+    padding: 100px 0;
+}
+
+#banner-inicio-sesion {
+    background-color: #f43e22;
+    padding: 100px 0 0;
+}
+
+#banner-inicio-sesion h2 {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+#iniciar-sesion p, #iniciar-sesion h3 {
+    text-align: center;
+    margin: 40px auto;
+}
+
+#iniciar-sesion {
+    padding: 50px 0;
+}
+
+div {
+    padding: 15px;
+}
+
+nav form button {
+    height: 40px;
+    background-color: #f43e22;
+    color: #FFFFFF;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+nav form {
+    margin: 0;
+    padding: 0;
+}
+
+#dashboard {
+    background-color: #f5c94c;
+    padding: 100px 0;
+}
+
+#dashboard h2 {
+    font-size: 3em;
+}
+
+#dashboard p {
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#tabla-noticias h2 {
+    background-color: #f02b7a;
+    font-size: 3em;
+    padding: 100px 0;
+}
+
+#tabla-noticias p {
+    margin: 20px auto 80px;
+    width: 100%;
+    font-size: 1em;
+    line-height: 26px;
+}
+
+#tabla-noticias a {
+    width: 30%;
+    margin: auto;
+}
+
+#tabla-noticias table {
+    margin: 80px auto;
+    table-layout: fixed;
+    width: 80%;
+}
+
+#tabla-noticias table td {
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla-noticias table tr td a {
+    width: 50%!important;
+    padding: 10px;
+    margin: 10px auto!important;
+    display: block;
+}
+
+#tabla-noticias th {
+    border-bottom: #f02b7a;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    margin: 15px;
+}
+
+#editar-noticia h2, #titulo-404{
+    background-color: #f02b7a;
+    padding: 100px 0;
+}
+
+#nueva-noticia h2, #eliminar-noticia h2{
+    background-color: #0e9ae0;
+    padding: 100px 0;
+    font-size: 3em;
+}
+
+#nueva-noticia div, #editar-noticia div, #eliminar-noticia div {
+    padding: 0;
+}
+
+#nueva-noticia, #editar-noticia, #eliminar-noticia {
+    padding: 50px 0;
+}
+
+#nueva-noticia form button, #editar-noticia form button, #eliminar-noticia form button {
+    margin: 20px;
+}
+
+#editar-noticia p, #eliminar-noticia p {
+    text-align: center;
+    margin: auto;
+}
+
+#editar-noticia img, #eliminar-noticia img {
+    margin: 20px auto;
+}
+
+#help-titulo {
+    font-size: 0.8em;
+    color: darkgrey;
+}
+
+label span {
+    font-size: 0.8em;
+    color: darkgrey;
+}
+
+div #img {
+    margin-bottom: 25px;
+}
+
+dl {
+    margin: 40px auto;
+    width: 80%;
+}
+
+dt {
+    font-weight: 600;
+    text-align: center;
+    color: #064e72;
+}
+
+dd {
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+#eliminar-noticia h3, #editar-noticia h3 {
+    text-align: center;
+    margin: 30px auto 10px;
+}
+
+#detalle-producto div {
+    vertical-align: top;
+}
+
+#producto-precio {
+    font-size: 2em;
+    margin: 30px 0!important;
+    font-weight: 600;
+}
+
+#detalle-producto p {
+    width: 80%;
+}
+
+.texto-404 {
+    text-align: center;
+    margin: 30px auto;
+}

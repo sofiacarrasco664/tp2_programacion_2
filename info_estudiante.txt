@@ -1,0 +1,15 @@
+Datos del estudiante:
+
+Carrera: Diseño y programación web
+Materia: Programación II
+Cuatrimestre: Tercer cuatrimestre
+Año: 2022
+Turno: Noche
+Comisión: DWN3AV
+Apellido: Carrasco
+Nombre: Sofía
+Docente: Santiago Gallino
+Carácter de entrega: Segundo parcial.
+
+email para acceder: sofiacarrasco@gmail.com
+password: nuevapassword
